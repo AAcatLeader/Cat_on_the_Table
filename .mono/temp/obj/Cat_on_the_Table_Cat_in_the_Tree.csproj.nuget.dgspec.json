@@ -1,0 +1,53 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/annabella/Godot_Projects/Cat_on_the_Table_Cat_in_the_Tree/Cat_on_the_Table_Cat_in_the_Tree.csproj": {}
+  },
+  "projects": {
+    "/home/annabella/Godot_Projects/Cat_on_the_Table_Cat_in_the_Tree/Cat_on_the_Table_Cat_in_the_Tree.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/annabella/Godot_Projects/Cat_on_the_Table_Cat_in_the_Tree/Cat_on_the_Table_Cat_in_the_Tree.csproj",
+        "projectName": "Cat_on_the_Table_Cat_in_the_Tree",
+        "projectPath": "/home/annabella/Godot_Projects/Cat_on_the_Table_Cat_in_the_Tree/Cat_on_the_Table_Cat_in_the_Tree.csproj",
+        "packagesPath": "/home/annabella/.nuget/packages/",
+        "outputPath": "/home/annabella/Godot_Projects/Cat_on_the_Table_Cat_in_the_Tree/.mono/temp/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/annabella/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "targetAlias": "net472",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "targetAlias": "net472",
+          "dependencies": {
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.2, )",
+              "autoReferenced": true
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

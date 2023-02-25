@@ -1,0 +1,9 @@
+/home/annabella/Godot_Projects/Cat_on_the_Table_Cat_in_the_Tree/.mono/temp/bin/ExportDebug/Cat_on_the_Table_Cat_in_the_Tree.dll
+/home/annabella/Godot_Projects/Cat_on_the_Table_Cat_in_the_Tree/.mono/temp/bin/ExportDebug/Cat_on_the_Table_Cat_in_the_Tree.pdb
+/home/annabella/Godot_Projects/Cat_on_the_Table_Cat_in_the_Tree/.mono/temp/obj/ExportDebug/Cat_on_the_Table_Cat_in_the_Tree.csproj.AssemblyReference.cache
+/home/annabella/Godot_Projects/Cat_on_the_Table_Cat_in_the_Tree/.mono/temp/obj/ExportDebug/Cat_on_the_Table_Cat_in_the_Tree.GeneratedMSBuildEditorConfig.editorconfig
+/home/annabella/Godot_Projects/Cat_on_the_Table_Cat_in_the_Tree/.mono/temp/obj/ExportDebug/Cat_on_the_Table_Cat_in_the_Tree.AssemblyInfoInputs.cache
+/home/annabella/Godot_Projects/Cat_on_the_Table_Cat_in_the_Tree/.mono/temp/obj/ExportDebug/Cat_on_the_Table_Cat_in_the_Tree.AssemblyInfo.cs
+/home/annabella/Godot_Projects/Cat_on_the_Table_Cat_in_the_Tree/.mono/temp/obj/ExportDebug/Cat_on_the_Table_Cat_in_the_Tree.csproj.CoreCompileInputs.cache
+/home/annabella/Godot_Projects/Cat_on_the_Table_Cat_in_the_Tree/.mono/temp/obj/ExportDebug/Cat_on_the_Table_Cat_in_the_Tree.dll
+/home/annabella/Godot_Projects/Cat_on_the_Table_Cat_in_the_Tree/.mono/temp/obj/ExportDebug/Cat_on_the_Table_Cat_in_the_Tree.pdb
