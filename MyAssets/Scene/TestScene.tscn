@@ -1,0 +1,509 @@
+[gd_scene load_steps=54 format=2]
+
+[ext_resource path="res://MyAssets/Objects/UI/llllcp.png" type="Texture" id=1]
+[ext_resource path="res://MyAssets/Audio/Music/funk (5).mp3" type="AudioStream" id=2]
+[ext_resource path="res://MyAssets/Objects/UI/resize.png" type="Texture" id=3]
+[ext_resource path="res://MyAssets/Script/Others/Resize.cs" type="Script" id=4]
+[ext_resource path="res://MyAssets/Objects/Sprites/DJ.png" type="Texture" id=5]
+[ext_resource path="res://MyAssets/Objects/Sprites/DJwand.png" type="Texture" id=6]
+[ext_resource path="res://MyAssets/Script/Others/DJwand.cs" type="Script" id=7]
+[ext_resource path="res://MyAssets/Script/Others/Dj.cs" type="Script" id=8]
+[ext_resource path="res://MyAssets/Script/Others/Test/testText.cs" type="Script" id=9]
+[ext_resource path="res://MyAssets/Script/Others/Icon.cs" type="Script" id=10]
+[ext_resource path="res://MyAssets/Objects/UI/aaRosen.png" type="Texture" id=11]
+[ext_resource path="res://MyAssets/Script/Others/AaRosen.cs" type="Script" id=12]
+[ext_resource path="res://MyAssets/Script/Others/Cott.cs" type="Script" id=13]
+[ext_resource path="res://MyAssets/Objects/UI/cott.png" type="Texture" id=14]
+[ext_resource path="res://MyAssets/Objects/UI/NotHexi.png" type="Texture" id=15]
+[ext_resource path="res://MyAssets/Script/Others/NotHexi.cs" type="Script" id=16]
+[ext_resource path="res://MyAssets/Objects/UI/Citt.png" type="Texture" id=17]
+[ext_resource path="res://MyAssets/Script/Others/Citt.cs" type="Script" id=18]
+[ext_resource path="res://MyAssets/Objects/UI/cootHPfull.png" type="Texture" id=19]
+[ext_resource path="res://MyAssets/Script/Others/CootHPfull.cs" type="Script" id=20]
+[ext_resource path="res://MyAssets/Objects/UI/321.png" type="Texture" id=21]
+[ext_resource path="res://MyAssets/Script/Others/TTW.cs" type="Script" id=22]
+[ext_resource path="res://MyAssets/Objects/UI/timeBall.png" type="Texture" id=23]
+[ext_resource path="res://MyAssets/Script/Others/TimeBall.cs" type="Script" id=24]
+[ext_resource path="res://MyAssets/Objects/Sprites/aaMini/scratchMark.png" type="Texture" id=25]
+[ext_resource path="res://MyAssets/Objects/Sprites/aaMini/scratchCat.png" type="Texture" id=26]
+[ext_resource path="res://MyAssets/Script/MiniGame/ScratchCat.cs" type="Script" id=27]
+[ext_resource path="res://MyAssets/Objects/Sprites/catjam/table.png" type="Texture" id=28]
+[ext_resource path="res://MyAssets/Objects/Sprites/catjam/cup.png" type="Texture" id=29]
+[ext_resource path="res://MyAssets/Objects/Sprites/catjam/cat/idle_0001.png" type="Texture" id=30]
+[ext_resource path="res://MyAssets/Script/MiniGame/hexCatRB.cs" type="Script" id=31]
+[ext_resource path="res://MyAssets/Script/MiniGame/JumpCatRB.cs" type="Script" id=32]
+[ext_resource path="res://MyAssets/Objects/Sprites/aaMini/jumpCat.png" type="Texture" id=33]
+[ext_resource path="res://MyAssets/Objects/Sprites/aaMini/jumpBuild.png" type="Texture" id=34]
+
+[sub_resource type="Animation" id=1]
+length = 0.5
+loop = true
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.2 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ 0, 1 ]
+}
+
+[sub_resource type="Animation" id=2]
+resource_name = "TernTable"
+length = 0.5
+loop = true
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.251848 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ 0, 1 ]
+}
+
+[sub_resource type="RectangleShape2D" id=3]
+extents = Vector2( 13.8153, 9.21549 )
+
+[sub_resource type="Animation" id=4]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ 0 ]
+}
+
+[sub_resource type="Animation" id=5]
+resource_name = "bbAni"
+length = 0.85
+loop = true
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.43 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ 0, 1 ]
+}
+
+[sub_resource type="Animation" id=9]
+resource_name = "bbAni1"
+length = 0.85
+loop = true
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.43 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ 2, 3 ]
+}
+
+[sub_resource type="Animation" id=10]
+resource_name = "bbAni2"
+length = 0.85
+loop = true
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.43 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ 4, 5 ]
+}
+
+[sub_resource type="Animation" id=11]
+resource_name = "bbAni3"
+length = 0.85
+loop = true
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.43 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ 6, 7 ]
+}
+
+[sub_resource type="Animation" id=12]
+resource_name = "bbAni4"
+length = 0.85
+loop = true
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.43 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ 8, 9 ]
+}
+
+[sub_resource type="RectangleShape2D" id=8]
+extents = Vector2( 22.5, 48.5 )
+
+[sub_resource type="RectangleShape2D" id=14]
+extents = Vector2( 102.5, 10 )
+
+[sub_resource type="RectangleShape2D" id=15]
+extents = Vector2( 36, 22 )
+
+[sub_resource type="RectangleShape2D" id=16]
+extents = Vector2( 14.5, 22 )
+
+[sub_resource type="RectangleShape2D" id=18]
+extents = Vector2( 41, 31.75 )
+
+[sub_resource type="RectangleShape2D" id=19]
+extents = Vector2( 39, 20.5 )
+
+[sub_resource type="Animation" id=7]
+resource_name = "TimeBall"
+length = 3.4
+tracks/0/type = "value"
+tracks/0/path = NodePath("MiniGames/TimeBall:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.43, 0.86, 1.29, 1.72, 2.15, 2.58, 3.01, 3.4 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1, 1 ),
+"update": 1,
+"values": [ 0, 1, 2, 3, 4, 5, 6, 7, 0 ]
+}
+
+[sub_resource type="Animation" id=17]
+resource_name = "Jump"
+length = 1.7
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.43, 0.86, 1.29 ),
+"transitions": PoolRealArray( 1, 1, 1, 1 ),
+"update": 1,
+"values": [ 0, 1, 2, 5 ]
+}
+
+[sub_resource type="Animation" id=6]
+resource_name = "Pull"
+length = 1.7
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.43, 0.86, 1.3 ),
+"transitions": PoolRealArray( 1, 1, 1, 1 ),
+"update": 1,
+"values": [ 0, 1, 2, 3 ]
+}
+
+[sub_resource type="Animation" id=13]
+resource_name = "Swing"
+length = 1.7
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.43, 0.86, 1.29 ),
+"transitions": PoolRealArray( 1, 1, 1, 1 ),
+"update": 1,
+"values": [ 0, 1, 2, 6 ]
+}
+
+[node name="TestScene" type="Node2D"]
+
+[node name="openCS" type="Node" parent="."]
+
+[node name="Citt" type="Sprite" parent="openCS"]
+unique_name_in_owner = true
+visible = false
+position = Vector2( -124, 80 )
+texture = ExtResource( 17 )
+script = ExtResource( 18 )
+
+[node name="AaRosen" type="Sprite" parent="openCS"]
+unique_name_in_owner = true
+visible = false
+position = Vector2( -88, 10 )
+texture = ExtResource( 11 )
+script = ExtResource( 12 )
+
+[node name="NotHexi" type="Sprite" parent="openCS"]
+unique_name_in_owner = true
+visible = false
+position = Vector2( 120, -7 )
+texture = ExtResource( 15 )
+script = ExtResource( 16 )
+
+[node name="Cott" type="Sprite" parent="openCS"]
+unique_name_in_owner = true
+visible = false
+position = Vector2( 360, 80 )
+texture = ExtResource( 14 )
+script = ExtResource( 13 )
+
+[node name="Resize" type="Sprite" parent="."]
+position = Vector2( 120, 80 )
+texture = ExtResource( 3 )
+script = ExtResource( 4 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Play" type="TextureButton" parent="Resize"]
+margin_left = -47.0
+margin_top = 21.0
+margin_right = 55.0
+margin_bottom = 47.0
+
+[node name="Icon" type="Sprite" parent="."]
+unique_name_in_owner = true
+visible = false
+position = Vector2( 368, -77 )
+z_index = 1
+texture = ExtResource( 1 )
+script = ExtResource( 10 )
+
+[node name="Dj" type="Sprite" parent="."]
+unique_name_in_owner = true
+visible = false
+modulate = Color( 1, 1, 1, 0 )
+position = Vector2( 119, 81 )
+texture = ExtResource( 5 )
+hframes = 2
+script = ExtResource( 8 )
+
+[node name="DJani" type="AnimationPlayer" parent="Dj"]
+anims/RESET = SubResource( 1 )
+anims/TernTable = SubResource( 2 )
+
+[node name="DJwand" type="Sprite" parent="Dj"]
+position = Vector2( 96, -4 )
+texture = ExtResource( 6 )
+offset = Vector2( -94, 4 )
+script = ExtResource( 7 )
+
+[node name="Area2D" type="Area2D" parent="Dj/DJwand"]
+position = Vector2( -110, -63 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Dj/DJwand/Area2D"]
+position = Vector2( 46, 5 )
+rotation = 0.731293
+shape = SubResource( 3 )
+
+[node name="CootHPfull" type="Sprite" parent="."]
+unique_name_in_owner = true
+modulate = Color( 1, 1, 1, 0 )
+position = Vector2( 120, 80 )
+scale = Vector2( 0.1, 0.1 )
+texture = ExtResource( 19 )
+hframes = 4
+vframes = 3
+script = ExtResource( 20 )
+
+[node name="bbAni" type="AnimationPlayer" parent="CootHPfull"]
+anims/RESET = SubResource( 4 )
+anims/bbAni = SubResource( 5 )
+anims/bbAni1 = SubResource( 9 )
+anims/bbAni2 = SubResource( 10 )
+anims/bbAni3 = SubResource( 11 )
+anims/bbAni4 = SubResource( 12 )
+
+[node name="Funk" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 2 )
+volume_db = -5.899
+
+[node name="testText" type="RichTextLabel" parent="Funk"]
+unique_name_in_owner = true
+visible = false
+modulate = Color( 1, 1, 1, 0.521569 )
+margin_left = 13.0
+margin_top = 8.0
+margin_right = 132.0
+margin_bottom = 46.0
+text = "Test"
+scroll_active = false
+script = ExtResource( 9 )
+
+[node name="MiniGames" type="Node" parent="."]
+
+[node name="Scratch" type="Node2D" parent="MiniGames"]
+unique_name_in_owner = true
+visible = false
+
+[node name="ScratchMark" type="Sprite" parent="MiniGames/Scratch"]
+position = Vector2( 120, 80 )
+texture = ExtResource( 25 )
+
+[node name="ScratchCat" type="Sprite" parent="MiniGames/Scratch"]
+position = Vector2( 120, 80 )
+texture = ExtResource( 26 )
+script = ExtResource( 27 )
+
+[node name="Area2D" type="Area2D" parent="MiniGames/Scratch/ScratchCat"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="MiniGames/Scratch/ScratchCat/Area2D"]
+position = Vector2( 0.5, -9.5 )
+shape = SubResource( 8 )
+
+[node name="CupD" type="Node2D" parent="MiniGames"]
+unique_name_in_owner = true
+visible = false
+position = Vector2( 0, -17 )
+
+[node name="Table" type="Sprite" parent="MiniGames/CupD"]
+position = Vector2( 189, 114 )
+texture = ExtResource( 28 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="MiniGames/CupD/Table"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="MiniGames/CupD/Table/StaticBody2D"]
+position = Vector2( -0.5, -10 )
+shape = SubResource( 14 )
+
+[node name="CupRB" type="RigidBody2D" parent="MiniGames/CupD"]
+unique_name_in_owner = true
+position = Vector2( 91, 69 )
+mass = 0.67
+gravity_scale = 12.49
+can_sleep = false
+
+[node name="Cup" type="Sprite" parent="MiniGames/CupD/CupRB"]
+texture = ExtResource( 29 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="MiniGames/CupD/CupRB"]
+position = Vector2( -1, 1 )
+shape = SubResource( 15 )
+
+[node name="hexCatRB" type="RigidBody2D" parent="MiniGames/CupD"]
+unique_name_in_owner = true
+position = Vector2( 180, 62 )
+input_pickable = true
+can_sleep = false
+script = ExtResource( 31 )
+
+[node name="hexCat" type="Sprite" parent="MiniGames/CupD/hexCatRB"]
+position = Vector2( -1, -6 )
+texture = ExtResource( 30 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="MiniGames/CupD/hexCatRB"]
+position = Vector2( 0, -1 )
+shape = SubResource( 16 )
+
+[node name="JumpTheGap" type="Node2D" parent="MiniGames"]
+unique_name_in_owner = true
+visible = false
+
+[node name="JumpBuild" type="Sprite" parent="MiniGames/JumpTheGap"]
+position = Vector2( 120, 80 )
+texture = ExtResource( 34 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="MiniGames/JumpTheGap/JumpBuild"]
+position = Vector2( -120, -80 )
+collision_layer = 2
+collision_mask = 2
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="MiniGames/JumpTheGap/JumpBuild/StaticBody2D"]
+position = Vector2( 32, 135.25 )
+shape = SubResource( 18 )
+
+[node name="StaticBody2D2" type="StaticBody2D" parent="MiniGames/JumpTheGap/JumpBuild"]
+position = Vector2( -120, -80 )
+collision_layer = 2
+collision_mask = 2
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="MiniGames/JumpTheGap/JumpBuild/StaticBody2D2"]
+position = Vector2( 207, 135.25 )
+shape = SubResource( 18 )
+
+[node name="JumpCatRB" type="RigidBody2D" parent="MiniGames/JumpTheGap"]
+unique_name_in_owner = true
+position = Vector2( 40, 82 )
+collision_layer = 2
+collision_mask = 2
+input_pickable = true
+script = ExtResource( 32 )
+
+[node name="JumpCat" type="Sprite" parent="MiniGames/JumpTheGap/JumpCatRB"]
+position = Vector2( 0, 6 )
+texture = ExtResource( 33 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="MiniGames/JumpTheGap/JumpCatRB"]
+shape = SubResource( 19 )
+
+[node name="TimeBall" type="Sprite" parent="MiniGames"]
+unique_name_in_owner = true
+visible = false
+position = Vector2( 120, 80 )
+texture = ExtResource( 23 )
+hframes = 3
+vframes = 3
+script = ExtResource( 24 )
+
+[node name="tbAni" type="AnimationPlayer" parent="MiniGames/TimeBall"]
+root_node = NodePath("../../..")
+anims/TimeBall = SubResource( 7 )
+
+[node name="321" type="Sprite" parent="."]
+unique_name_in_owner = true
+visible = false
+position = Vector2( 120, 80 )
+z_index = 7
+texture = ExtResource( 21 )
+hframes = 3
+vframes = 3
+script = ExtResource( 22 )
+
+[node name="TreeTewWun" type="AnimationPlayer" parent="321"]
+anims/Jump = SubResource( 17 )
+anims/Pull = SubResource( 6 )
+anims/Swing = SubResource( 13 )
+
+[connection signal="pressed" from="Resize/Play" to="Resize" method="_on_TextureButton_pressed"]
+[connection signal="input_event" from="Dj/DJwand/Area2D" to="Dj/DJwand" method="_on_Area2D_input_event"]
+[connection signal="input_event" from="MiniGames/Scratch/ScratchCat/Area2D" to="MiniGames/Scratch/ScratchCat" method="_on_Area2D_input_event"]
+[connection signal="input_event" from="MiniGames/CupD/hexCatRB" to="MiniGames/CupD/hexCatRB" method="_on_hexCatRB_input_event"]
+[connection signal="input_event" from="MiniGames/JumpTheGap/JumpCatRB" to="MiniGames/JumpTheGap/JumpCatRB" method="_on_JumpCatRB_input_event"]

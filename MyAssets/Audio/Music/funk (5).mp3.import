@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/funk (5).mp3-8fb0c9e3011a9bb612e138e8ef442086.mp3str"
+
+[deps]
+
+source_file="res://MyAssets/Audio/Music/funk (5).mp3"
+dest_files=[ "res://.import/funk (5).mp3-8fb0c9e3011a9bb612e138e8ef442086.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0
